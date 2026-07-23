@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Machinal - C.O.N.E.J.O - Kope Side</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/machinal.json");
+    </script>
+      <style>
+          html,body{
+              width: 100%;
+              height: 100%;
+              margin: 0;
+              overflow: hidden;
+              background-image: url(img/bg.jpg);
+              background-size: cover;
+              background-position: center;
+          }
+          #gameContainer{
+              margin-left: auto;
+              margin-right: auto;
+          }
+          #info{
+              position: absolute;
+              color: white;
+              font-family: sans-serif;
+              font-size: 9px;
+              bottom: 0;
+              left: 0;
+              padding-left: 10px;
+              
+          }
+          #info img{
+              width: 50px;
+              
+          }
+          #info a img{
+              width: 20px;
+          }
+          #info a{
+              color: white;
+              font-size: 11px;
+          }
+      </style>
+  </head>
+  <body>
+    <div id="container" style="margin-left: auto; margin-right: auto;">  
+        <div id="gameContainer" style="width: 1280px; height: 800px;"></div>
+    </div> 
+    <div id="info">
+        <p>Controls:</p>
+        <p>Move : A and D</p>
+        <p>jump : Space</p>
+        <br>
+        <p>info:</p>
+        <p>Machinal</p>  
+        <p>Game song for C.O.N.E.J.O.</p>
+        <p>
+            <a href="https://open.spotify.com/album/34UtbCxSR3D81TqsyKfKmY">
+                Album "Madrigal" in Spotify
+                <img src="img/2000px-Spotify_logo_without_text.svg.png">
+            </a>
+        </p>
+        <p>C.O.N.E.J.O Web Site: <a href="http://www.conejo.band/" target="_blank">www.conejo.band</a></p>
+        <p>dev by : Kope Side</p>
+        <img src="img/Kopeside-Logo.png"> 
+        <p>2017</p>  
+    </div>  
+      
+    <script>
+        var gameCon = document.getElementById("gameContainer");
+        gameCon.style.height = window.innerHeight + "px";
+        gameCon.style.width =  window.innerWidth + "px";
+      </script>  
+  </body>
+</html>

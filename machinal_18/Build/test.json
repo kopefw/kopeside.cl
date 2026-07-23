@@ -1,0 +1,14 @@
+{
+"companyName": "Kope Side",
+"productName": "Machinal",
+"dataUrl": "test.data.unityweb",
+"asmCodeUrl": "test.asm.code.unityweb",
+"asmMemoryUrl": "test.asm.memory.unityweb",
+"asmFrameworkUrl": "test.asm.framework.unityweb",
+"TOTAL_MEMORY": 1048576000,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "test.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
